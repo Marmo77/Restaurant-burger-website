@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.jpg" alt="Bistro Burger Logo" width="220" />
+  <img src="public/bannersforGH.png" alt="Bistro Burger Logo" width="220" />
   
   <h1>Bistro Burger Szczecin - Projekt Portfolio</h1>
   
