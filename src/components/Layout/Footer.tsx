@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, MapPin, Phone } from "lucide-react";
 import { siteData } from "../../data/siteData";
-import { Button } from "../ui/button";
 import { navigateToAddigital } from "../../lib/utils";
 
 interface FooterProps {
