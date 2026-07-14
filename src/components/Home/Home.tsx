@@ -6,7 +6,7 @@ import InfoSection from "./InfoSection";
 import Contact from "./Contact";
 
 // !WATERMARK!
-import WaterMarkBanner from "./WaterMarkBanner";
+// import WaterMarkBanner from "./WaterMarkBanner";
 
 const Home: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       <Contact />
 
       {/* !WATERMARK! */}
-      <WaterMarkBanner />
+      {/* <WaterMarkBanner /> */}
     </main>
   );
 };

@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, MapPin, Phone } from "lucide-react";
 import { siteData } from "../../data/siteData";
+import { Button } from "../ui/button";
+import { navigateToAddigital } from "../../lib/utils";
 
 interface FooterProps {
   handleNavigation: (id: string) => void;
@@ -125,6 +127,15 @@ const Footer: React.FC<FooterProps> = ({ handleNavigation }) => {
           <div className="mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} {siteData.name}. Wszelkie prawa
             zastrzeżone.
+          </div>
+          <div className="flex justify-center items-end gap-1">
+            <p>Strona stworzona przez</p>
+            <span
+              className="text-sm font-bold text-primary/80 cursor-pointer hover:underline underline-offset-3"
+              onClick={navigateToAddigital}
+            >
+              Addigital
+            </span>
           </div>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-white transition-colors">
